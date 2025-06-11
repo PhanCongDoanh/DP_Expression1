@@ -12,8 +12,8 @@ public class Product extends Expression{
     private Expression left_side, right_side;
     
     public Product(Expression u, Expression v){
-        u = left_side;
-        v = right_side;
+        this.left_side = u;
+        this.right_side = v;
     }
     
     public double evaluate(int x){
