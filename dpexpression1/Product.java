@@ -6,7 +6,7 @@ package dpexpression1;
 
 /**
  *
- * @author Admin
+ * @author Doanh
  */
 public class Product extends Expression{
     private Expression left_side, right_side;
