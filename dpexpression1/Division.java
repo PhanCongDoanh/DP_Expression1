@@ -6,7 +6,7 @@ package dpexpression1;
 
 /**
  *
- * @author Admin
+ * @author Doanh
  */
 public class Division extends Expression{
 private Expression above, below;
