@@ -12,7 +12,7 @@ public class Constant extends Expression{
     private int value;
     
     public Constant(int a){
-        a = value;
+        this.value = a;
     }
     
     public double evaluate(int x){
