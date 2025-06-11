@@ -13,14 +13,14 @@ public class Monomial extends Expression{
     
     public Monomial(int a, int n){
         if(a == 0){
-            a = 0;
-            n = 0;
+            this.constant = 0;
+            this.exponent = 0;
         }else if(n == 0){
-            a = constant;
-            n = 0;
+            this.constant = a;
+            this.exponent = 0;
         }else{
-            a = constant;
-            n = exponent;
+            this.constant = a;
+            this.exponent = n;
         }
     }
     
